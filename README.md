@@ -16,8 +16,6 @@ Juego de laberintos tipo **Maze Escape** desarrollado en C#.
 | Integrante D | Recursos gráficos / sprites, assets visuales, diseño artístico |
 | Integrante E | Pruebas / depuración, balanceo del juego, integración final |
 
-*(Completar con los nombres y responsabilidades reales de cada integrante)*
-
 ---
 
 ## 📂 Estructura del proyecto
