@@ -11,13 +11,15 @@ public class EnemyBullet2D : MonoBehaviour
     {
         if (!rb) rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
-        rb.linearVelocity = velocity;
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
+        rb.interpolation = RigidbodyInterpolation2D.Interpolate;
+        rb.linearVelocity = velocity;                  // <-- aquí el fix
         Destroy(gameObject, life);
     }
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        // daño simple al Player si tiene un método Damage(int)
+        // ¿tocó al Player?
         var pc = col.GetComponent<PlayerHealth>();
         if (pc != null)
         {
@@ -25,7 +27,7 @@ public class EnemyBullet2D : MonoBehaviour
             Destroy(gameObject);
             return;
         }
-        // pared → destruir
+        // ¿tocó pared?
         if (col.gameObject.layer == LayerMask.NameToLayer("Walls"))
             Destroy(gameObject);
     }

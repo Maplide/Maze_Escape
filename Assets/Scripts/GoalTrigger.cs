@@ -1,17 +1,22 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class GoalTrigger : MonoBehaviour
 {
-    [Tooltip("Dejar vacío si solo quieres probar en esta escena.")]
-    public string nextSceneName = "";
+    private LevelCompleteUI ui;
+
+    void Start()
+    {
+        // Busca el controlador de la UI (aunque el panel esté desactivado)
+        ui = FindObjectOfType<LevelCompleteUI>(includeInactive: true);
+        if (!ui) Debug.LogWarning("GoalTrigger: No encontré LevelCompleteUI en la escena.");
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
 
         Debug.Log("¡Nivel completado!");
-        if (!string.IsNullOrEmpty(nextSceneName))
-            SceneManager.LoadScene(nextSceneName);
+        ui?.Show();              // abre el panel y hace Time.timeScale = 0
+        // Ya NO cambiamos de escena aquí. Los botones de la UI manejan lo que sigue.
     }
 }
