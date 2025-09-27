@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Enemy
+  - Goal
   layers:
   - Default
   - TransparentFX
@@ -11,13 +13,13 @@ TagManager:
   - 
   - Water
   - UI
+  - Background
+  - Floor
   - Walls
+  - Props
+  - Interactables
+  - Characters
   - EnemyShot
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 

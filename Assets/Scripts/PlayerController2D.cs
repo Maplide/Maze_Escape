@@ -17,8 +17,7 @@ public class PlayerController2D : MonoBehaviour
 
     void FixedUpdate(){
         Vector2 input = ReadMove();
-        // usa velocity en 2D
-        rb.linearVelocity = input.normalized * speed;
+        rb.linearVelocity = input.normalized * speed; // ← CORRECTO EN 2D
     }
 
     Vector2 ReadMove(){
@@ -36,7 +35,6 @@ public class PlayerController2D : MonoBehaviour
         }
         if (g != null){
             var stick = g.leftStick.ReadValue();
-            // si hay mando, mezcla con teclado
             if (Mathf.Abs(stick.x) > Mathf.Abs(x)) x = stick.x;
             if (Mathf.Abs(stick.y) > Mathf.Abs(y)) y = stick.y;
         }
@@ -45,7 +43,6 @@ public class PlayerController2D : MonoBehaviour
         // Input clásico
         float x = (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow) ? 1 : 0)
                 - (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)  ? 1 : 0);
-        // ARRIBA POSITIVO
         float y = (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow)    ? 1 : 0)
                 - (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)  ? 1 : 0);
         return new Vector2(x, y);
