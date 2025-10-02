@@ -6,18 +6,28 @@ using System.Collections;
 public class LevelCompleteUI : MonoBehaviour
 {
     [Header("Refs")]
-    public GameObject panelRoot;  // LevelCompletePanel (GameObject)
-    public CanvasGroup cg;        // CanvasGroup del panel
+    public GameObject panelRoot;   // LevelCompletePanel
+    public CanvasGroup cg;         // CanvasGroup del panel
     public TMP_Text timeText;
     public TMP_Text hitsText;
     public TMP_Text rankText;
+
+    [Header("UI Flow")]
+    [Tooltip("Nombre de la escena de Menú en Build Settings (ej: MainMenu)")]
+    public string menuSceneName = "MainMenu";
+
+    [Tooltip("Si está activado, el botón Siguiente cargará el siguiente índice en Build Settings.")]
+    public bool autoNextByBuildIndex = true;
+
+    [Tooltip("Si no usas autoNext, especifica el nombre exacto de la próxima escena aquí.")]
+    public string explicitNextSceneName = "";
 
     [Header("Opcional")]
     public float fadeDuration = 0.25f;
 
     bool shown;
 
-    void Awake(){
+    void Awake() {
         if (panelRoot) panelRoot.SetActive(false);
         if (cg) cg.alpha = 0f;
     }
@@ -39,6 +49,8 @@ public class LevelCompleteUI : MonoBehaviour
         StartCoroutine(FadeIn());
 
         Time.timeScale = 0f; // pausa el juego
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     IEnumerator FadeIn()
@@ -47,7 +59,7 @@ public class LevelCompleteUI : MonoBehaviour
         float t = 0f;
         while (t < fadeDuration)
         {
-            t += Time.unscaledDeltaTime;         // importante: unscaled
+            t += Time.unscaledDeltaTime;
             cg.alpha = Mathf.Lerp(0f, 1f, t / fadeDuration);
             yield return null;
         }
@@ -65,23 +77,49 @@ public class LevelCompleteUI : MonoBehaviour
     public void OnRetry()
     {
         Time.timeScale = 1f;
-        var scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void OnNextLevel(string nextSceneName)
+    // Versión sin parámetros para el botón
+    public void OnNextLevel()
     {
         Time.timeScale = 1f;
-        if (!string.IsNullOrEmpty(nextSceneName))
-            SceneManager.LoadScene(nextSceneName);
+
+        if (autoNextByBuildIndex)
+        {
+            int current = SceneManager.GetActiveScene().buildIndex;
+            int last = SceneManager.sceneCountInBuildSettings - 1;
+            if (current < last)
+            {
+                SceneManager.LoadScene(current + 1);
+            }
+            else
+            {
+                // si ya no hay siguiente, vete al menú
+                LoadMenuInternal();
+            }
+        }
         else
-            Debug.LogWarning("LevelCompleteUI: Asigna el nombre de la siguiente escena.");
+        {
+            if (!string.IsNullOrEmpty(explicitNextSceneName))
+                SceneManager.LoadScene(explicitNextSceneName);
+            else
+                Debug.LogWarning("LevelCompleteUI: Define explicitNextSceneName o activa autoNextByBuildIndex.");
+        }
     }
 
-    public void OnMenu(string menuScene)
+    // Versión sin parámetros para el botón
+    public void OnMenu()
     {
         Time.timeScale = 1f;
-        if (!string.IsNullOrEmpty(menuScene))
-            SceneManager.LoadScene(menuScene);
+        LoadMenuInternal();
+    }
+
+    void LoadMenuInternal()
+    {
+        if (!string.IsNullOrEmpty(menuSceneName))
+            SceneManager.LoadScene(menuSceneName);
+        else
+            Debug.LogWarning("LevelCompleteUI: menuSceneName vacío. Asigna el nombre de tu escena de menú.");
     }
 }

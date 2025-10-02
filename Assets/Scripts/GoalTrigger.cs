@@ -6,9 +6,15 @@ public class GoalTrigger : MonoBehaviour
 
     void Start()
     {
-        // Busca el controlador de la UI (aunque el panel esté desactivado)
-        ui = FindObjectOfType<LevelCompleteUI>(includeInactive: true);
-        if (!ui) Debug.LogWarning("GoalTrigger: No encontré LevelCompleteUI en la escena.");
+        #if UNITY_2023_1_OR_NEWER
+        ui = FindFirstObjectByType<LevelCompleteUI>(FindObjectsInactive.Include);
+        #else
+        // includeInactive: true para encontrar el panel aunque esté desactivado
+        ui = FindObjectOfType<LevelCompleteUI>(true);
+        #endif
+
+        if (!ui)
+            Debug.LogWarning("GoalTrigger: No encontré LevelCompleteUI en la escena.");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -16,7 +22,6 @@ public class GoalTrigger : MonoBehaviour
         if (!other.CompareTag("Player")) return;
 
         Debug.Log("¡Nivel completado!");
-        ui?.Show();              // abre el panel y hace Time.timeScale = 0
-        // Ya NO cambiamos de escena aquí. Los botones de la UI manejan lo que sigue.
+        ui?.Show(); // abre panel y pausa (Time.timeScale = 0)
     }
 }
