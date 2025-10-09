@@ -4,9 +4,9 @@ using UnityEngine.SceneManagement;
 public class MainMenuController : MonoBehaviour
 {
     [Header("Panels")]
-    public GameObject panelMain;       // ← Panel con botones Jugar, Niveles, Controles, Salir
-    public GameObject panelNiveles;    // ← Panel de selección de niveles
-    public GameObject panelControles;  // ← Panel de controles (nuevo)
+    public GameObject panelMain;       // Panel con botones Jugar, Niveles, Controles, Salir
+    public GameObject panelNiveles;    // Panel de selección de niveles
+    public GameObject panelControles;  // Panel de controles (nuevo)
 
     private void Start()
     {

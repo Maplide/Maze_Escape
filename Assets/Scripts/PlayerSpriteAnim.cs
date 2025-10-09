@@ -4,12 +4,12 @@ using UnityEngine;
 public class PlayerSpriteAnim : MonoBehaviour
 {
     [Header("Sprites")]
-    public Sprite idleFrame;          // arrastra maze_0 (o el que quieras idle)
-    public Sprite[] walkFrames;       // arrastra maze_0..maze_5 en orden
+    public Sprite idleFrame;
+    public Sprite[] walkFrames;
 
     [Header("Ajustes")]
-    public float walkFps = 10f;        // velocidad de la animación
-    public float moveThreshold = 0.1f; // cuándo consideramos que “se mueve”
+    public float walkFps = 10f;
+    public float moveThreshold = 0.1f;
 
     SpriteRenderer sr;
     Rigidbody2D rb;
