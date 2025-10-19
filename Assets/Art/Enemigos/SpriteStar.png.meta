@@ -1,0 +1,590 @@
+fileFormatVersion: 2
+guid: 76dc5b8b9f0393748ae163214d58de55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7785598553588393242
+    second: SpriteStar_0
+  - first:
+      213: -2137279034637635330
+    second: SpriteStar_1
+  - first:
+      213: -5217178652024640480
+    second: SpriteStar_2
+  - first:
+      213: -1850434105832757209
+    second: SpriteStar_3
+  - first:
+      213: -5917947165999238057
+    second: SpriteStar_4
+  - first:
+      213: 943305349876362653
+    second: SpriteStar_5
+  - first:
+      213: 437669361974433263
+    second: SpriteStar_6
+  - first:
+      213: 3680500241363780307
+    second: SpriteStar_7
+  - first:
+      213: 4547835103661825539
+    second: SpriteStar_8
+  - first:
+      213: 1887193477844712052
+    second: SpriteStar_9
+  - first:
+      213: 6031836204692473567
+    second: SpriteStar_10
+  - first:
+      213: 1939206333814854745
+    second: SpriteStar_11
+  - first:
+      213: 1808251245752914732
+    second: SpriteStar_12
+  - first:
+      213: 1662336102295262317
+    second: SpriteStar_13
+  - first:
+      213: 8023586066976988923
+    second: SpriteStar_14
+  - first:
+      213: -2775606371294257365
+    second: SpriteStar_15
+  - first:
+      213: 4391674986945495308
+    second: SpriteStar_16
+  - first:
+      213: 7611265850765502240
+    second: SpriteStar_17
+  - first:
+      213: -5998056270185986090
+    second: SpriteStar_18
+  - first:
+      213: -6030698048298226100
+    second: SpriteStar_19
+  - first:
+      213: -4435531696415399580
+    second: SpriteStar_20
+  - first:
+      213: 4212241800651528891
+    second: SpriteStar_21
+  - first:
+      213: 4972516370134566964
+    second: SpriteStar_22
+  - first:
+      213: 7015688282475177674
+    second: SpriteStar_23
+  - first:
+      213: -8311731759731623274
+    second: SpriteStar_24
+  - first:
+      213: 3493808577830577795
+    second: SpriteStar_25
+  - first:
+      213: -2433606164648132249
+    second: SpriteStar_26
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteStar_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 754
+        width: 195
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a156e6672a00c0c60800000000000000
+      internalID: 7785598553588393242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_2
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 753
+        width: 186
+        height: 207
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ce15468abd897b0800000000000000
+      internalID: -5217178652024640480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_5
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 755
+        width: 196
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d2b16c73b471d00800000000000000
+      internalID: 943305349876362653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_6
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 755
+        width: 196
+        height: 206
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe5de8147f9e21600800000000000000
+      internalID: 437669361974433263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 524
+        width: 194
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d24a3a2873c31330800000000000000
+      internalID: 3680500241363780307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_8
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 525
+        width: 191
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e90da6ee72d1f30800000000000000
+      internalID: 4547835103661825539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_10
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 525
+        width: 193
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd60904f11365b350800000000000000
+      internalID: 6031836204692473567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_11
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 525
+        width: 190
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 954d831e2e179ea10800000000000000
+      internalID: 1939206333814854745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_12
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 296
+        width: 194
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2392cf6de2381910800000000000000
+      internalID: 1808251245752914732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_13
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 296
+        width: 195
+        height: 198
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d64dd9aa0edc11710800000000000000
+      internalID: 1662336102295262317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_14
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 293
+        width: 206
+        height: 205
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfedfe26401895f60800000000000000
+      internalID: 8023586066976988923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_15
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 294
+        width: 194
+        height: 203
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2fd1ba06b01b79d0800000000000000
+      internalID: -2775606371294257365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_18
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 61
+        width: 194
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d782c0f99f92cca0800000000000000
+      internalID: -5998056270185986090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_19
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 65
+        width: 190
+        height: 193
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4eea8bb318ae4ca0800000000000000
+      internalID: -6030698048298226100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_20
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 65
+        width: 191
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461ac2d2c63d172c0800000000000000
+      internalID: -4435531696415399580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteStar_21
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 59
+        width: 172
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbad2eba993e47a30800000000000000
+      internalID: 4212241800651528891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b9d986573510e964383df64f844944c1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpriteStar_0: 7785598553588393242
+      SpriteStar_1: -2137279034637635330
+      SpriteStar_10: 6031836204692473567
+      SpriteStar_11: 1939206333814854745
+      SpriteStar_12: 1808251245752914732
+      SpriteStar_13: 1662336102295262317
+      SpriteStar_14: 8023586066976988923
+      SpriteStar_15: -2775606371294257365
+      SpriteStar_16: 4391674986945495308
+      SpriteStar_17: 7611265850765502240
+      SpriteStar_18: -5998056270185986090
+      SpriteStar_19: -6030698048298226100
+      SpriteStar_2: -5217178652024640480
+      SpriteStar_20: -4435531696415399580
+      SpriteStar_21: 4212241800651528891
+      SpriteStar_22: 4972516370134566964
+      SpriteStar_23: 7015688282475177674
+      SpriteStar_24: -8311731759731623274
+      SpriteStar_25: 3493808577830577795
+      SpriteStar_26: -2433606164648132249
+      SpriteStar_3: -1850434105832757209
+      SpriteStar_4: -5917947165999238057
+      SpriteStar_5: 943305349876362653
+      SpriteStar_6: 437669361974433263
+      SpriteStar_7: 3680500241363780307
+      SpriteStar_8: 4547835103661825539
+      SpriteStar_9: 1887193477844712052
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

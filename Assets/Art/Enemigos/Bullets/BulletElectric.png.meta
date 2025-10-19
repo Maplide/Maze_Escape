@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: b50c8f19f13aabc43a6a1d7f61e0413b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7402509228819849625
+    second: BulletElectric_0
+  - first:
+      213: -3339142607580869974
+    second: BulletElectric_1
+  - first:
+      213: 2344806219977933135
+    second: BulletElectric_2
+  - first:
+      213: -4193367685839484599
+    second: BulletElectric_3
+  - first:
+      213: -7585099713586492219
+    second: BulletElectric_4
+  - first:
+      213: -3462132255209265242
+    second: BulletElectric_5
+  - first:
+      213: -5375637211344110780
+    second: BulletElectric_6
+  - first:
+      213: 45544474431345010
+    second: BulletElectric_7
+  - first:
+      213: -8936149465723423484
+    second: BulletElectric_8
+  - first:
+      213: 4086840723751432901
+    second: BulletElectric_9
+  - first:
+      213: 1493437467634997467
+    second: BulletElectric_10
+  - first:
+      213: 6706414066427759922
+    second: BulletElectric_11
+  - first:
+      213: 7891353000577386660
+    second: BulletElectric_12
+  - first:
+      213: -2724994282148634431
+    second: BulletElectric_13
+  - first:
+      213: 7231692075939659964
+    second: BulletElectric_14
+  - first:
+      213: 4516329150096416749
+    second: BulletElectric_15
+  - first:
+      213: -1218948299796131375
+    second: BulletElectric_16
+  - first:
+      213: -3379667537791823038
+    second: BulletElectric_17
+  - first:
+      213: -1386462273366061420
+    second: BulletElectric_18
+  - first:
+      213: -3121020937951689478
+    second: BulletElectric_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BulletElectric_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 412
+        width: 190
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc82c18fff4cb690800000000000000
+      internalID: -7585099713586492219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BulletElectric_7
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 412
+        width: 200
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27156fb457ec1a000800000000000000
+      internalID: 45544474431345010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BulletElectric_8
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 398
+        width: 188
+        height: 199
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40532cb186b6cf380800000000000000
+      internalID: -8936149465723423484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BulletElectric_10
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 398
+        width: 200
+        height: 188
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd894a8d671c9b410800000000000000
+      internalID: 1493437467634997467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 128f1b7d1b8fb8c4e93a199c9f45311a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BulletElectric_0: 7402509228819849625
+      BulletElectric_1: -3339142607580869974
+      BulletElectric_10: 1493437467634997467
+      BulletElectric_11: 6706414066427759922
+      BulletElectric_12: 7891353000577386660
+      BulletElectric_13: -2724994282148634431
+      BulletElectric_14: 7231692075939659964
+      BulletElectric_15: 4516329150096416749
+      BulletElectric_16: -1218948299796131375
+      BulletElectric_17: -3379667537791823038
+      BulletElectric_18: -1386462273366061420
+      BulletElectric_19: -3121020937951689478
+      BulletElectric_2: 2344806219977933135
+      BulletElectric_3: -4193367685839484599
+      BulletElectric_4: -7585099713586492219
+      BulletElectric_5: -3462132255209265242
+      BulletElectric_6: -5375637211344110780
+      BulletElectric_7: 45544474431345010
+      BulletElectric_8: -8936149465723423484
+      BulletElectric_9: 4086840723751432901
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

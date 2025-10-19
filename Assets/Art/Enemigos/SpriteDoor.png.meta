@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: 3a619c3a9534bf241888e79aeaed54d9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5354652930245901524
+    second: SpriteDoor_0
+  - first:
+      213: 7114780644638639801
+    second: SpriteDoor_1
+  - first:
+      213: -6875101480081937428
+    second: SpriteDoor_2
+  - first:
+      213: 2108221242877024335
+    second: SpriteDoor_3
+  - first:
+      213: 789389622782776051
+    second: SpriteDoor_4
+  - first:
+      213: -8721552287999947583
+    second: SpriteDoor_5
+  - first:
+      213: -6315045180003560338
+    second: SpriteDoor_6
+  - first:
+      213: 6978168922401896585
+    second: SpriteDoor_7
+  - first:
+      213: 8733080709002465436
+    second: SpriteDoor_8
+  - first:
+      213: 6185265049186388249
+    second: SpriteDoor_9
+  - first:
+      213: 1257692583830211926
+    second: SpriteDoor_10
+  - first:
+      213: 5314147037816508165
+    second: SpriteDoor_11
+  - first:
+      213: 8045772722410467208
+    second: SpriteDoor_12
+  - first:
+      213: 8087937778279337861
+    second: SpriteDoor_13
+  - first:
+      213: -7316110483893355019
+    second: SpriteDoor_14
+  - first:
+      213: 4649546473305928601
+    second: SpriteDoor_15
+  - first:
+      213: -4846581056462532917
+    second: SpriteDoor_16
+  - first:
+      213: 2646641744122828482
+    second: SpriteDoor_17
+  - first:
+      213: 1915170925396240243
+    second: SpriteDoor_18
+  - first:
+      213: 8069218812394944925
+    second: SpriteDoor_19
+  - first:
+      213: -4094635708589802375
+    second: SpriteDoor_20
+  - first:
+      213: 2515550059283261211
+    second: SpriteDoor_21
+  - first:
+      213: -6489487628721106233
+    second: SpriteDoor_22
+  - first:
+      213: 8310173333805991034
+    second: SpriteDoor_23
+  - first:
+      213: 6030301044086273341
+    second: SpriteDoor_24
+  - first:
+      213: 4134869631228248569
+    second: SpriteDoor_25
+  - first:
+      213: 1565896279171210148
+    second: SpriteDoor_26
+  - first:
+      213: -386743392254971427
+    second: SpriteDoor_27
+  - first:
+      213: 2966758100312405761
+    second: SpriteDoor_28
+  - first:
+      213: 2667107861747596
+    second: SpriteDoor_29
+  - first:
+      213: -9222982664378921907
+    second: SpriteDoor_30
+  - first:
+      213: 1798022480847071298
+    second: SpriteDoor_31
+  - first:
+      213: 7996113653183778676
+    second: SpriteDoor_32
+  - first:
+      213: 3514360750798413781
+    second: SpriteDoor_33
+  - first:
+      213: 6670176599891870884
+    second: SpriteDoor_34
+  - first:
+      213: -1583902057304720732
+    second: SpriteDoor_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteDoor_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 316
+        width: 215
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6c282fc47ccb260800000000000000
+      internalID: 7114780644638639801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteDoor_9
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 316
+        width: 213
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 919c4629ac976d550800000000000000
+      internalID: 6185265049186388249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteDoor_10
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 316
+        width: 217
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65dc7dfcdb8347110800000000000000
+      internalID: 1257692583830211926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteDoor_11
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 316
+        width: 213
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50f4f394394afb940800000000000000
+      internalID: 5314147037816508165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteDoor_21
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 316
+        width: 215
+        height: 405
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17aa42737709e220800000000000000
+      internalID: 2515550059283261211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 169edd414f6989c42b68f9b02757b478
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SpriteDoor_0: 5354652930245901524
+      SpriteDoor_1: 7114780644638639801
+      SpriteDoor_10: 1257692583830211926
+      SpriteDoor_11: 5314147037816508165
+      SpriteDoor_12: 8045772722410467208
+      SpriteDoor_13: 8087937778279337861
+      SpriteDoor_14: -7316110483893355019
+      SpriteDoor_15: 4649546473305928601
+      SpriteDoor_16: -4846581056462532917
+      SpriteDoor_17: 2646641744122828482
+      SpriteDoor_18: 1915170925396240243
+      SpriteDoor_19: 8069218812394944925
+      SpriteDoor_2: -6875101480081937428
+      SpriteDoor_20: -4094635708589802375
+      SpriteDoor_21: 2515550059283261211
+      SpriteDoor_22: -6489487628721106233
+      SpriteDoor_23: 8310173333805991034
+      SpriteDoor_24: 6030301044086273341
+      SpriteDoor_25: 4134869631228248569
+      SpriteDoor_26: 1565896279171210148
+      SpriteDoor_27: -386743392254971427
+      SpriteDoor_28: 2966758100312405761
+      SpriteDoor_29: 2667107861747596
+      SpriteDoor_3: 2108221242877024335
+      SpriteDoor_30: -9222982664378921907
+      SpriteDoor_31: 1798022480847071298
+      SpriteDoor_32: 7996113653183778676
+      SpriteDoor_33: 3514360750798413781
+      SpriteDoor_34: 6670176599891870884
+      SpriteDoor_35: -1583902057304720732
+      SpriteDoor_4: 789389622782776051
+      SpriteDoor_5: -8721552287999947583
+      SpriteDoor_6: -6315045180003560338
+      SpriteDoor_7: 6978168922401896585
+      SpriteDoor_8: 8733080709002465436
+      SpriteDoor_9: 6185265049186388249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
