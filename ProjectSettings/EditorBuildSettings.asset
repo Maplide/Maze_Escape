@@ -9,14 +9,32 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 2ef5ff40ec5bfa245a2980e364ed4bed
   - enabled: 1
+    path: Assets/Scenes/IntroComic.unity
+    guid: 9610fd429bd854a4187796912f3897d5
+  - enabled: 1
+    path: Assets/Scenes/Comic1.unity
+    guid: 3c99bb4abec384e47bee111270cfcbaf
+  - enabled: 1
     path: Assets/Scenes/MazeEscapev01.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Comic2.unity
+    guid: 9ab6ef11bc0256a47891be7bd738b35a
   - enabled: 1
     path: Assets/Scenes/MazeEscapev02.unity
     guid: 382cbe7be214cb54b93ac2fda842daad
   - enabled: 1
+    path: Assets/Scenes/Comic3.unity
+    guid: 9af1a4a2e0dc82f4299d0d9d95824624
+  - enabled: 1
     path: Assets/Scenes/MazeEscapev03.unity
     guid: 97d133094078d8643a5e585e238de91d
+  - enabled: 1
+    path: Assets/Scenes/Comic4.unity
+    guid: 2e06a0811fc9d1c43b9c91769d801964
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: 900d5a9caa82fed4d85214e02b1a1e2e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
